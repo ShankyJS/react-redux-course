@@ -1,0 +1,40 @@
+@import 'https://fonts.googleapis.com/css?family=Alfa+Slab+One';
+
+.page-container{
+
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #121212;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    mix-blend-mode: overlay;
+}
+.code {
+    font-family: 'Verdana';
+    color: white;
+}
+
+.btn{
+    color: white;
+    background: transparent;
+    position: fixed;
+    z-index: auto;
+    margin-top: 7vh;
+    height: 50px;
+    width: 200px;
+    border: transparent;
+    background: green;
+    border-style: none;
+}
